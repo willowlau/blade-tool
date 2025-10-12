@@ -39,12 +39,12 @@
 |----------------------|------------|
 | Java                 | 17+        |
 | NodeJS               | 18+        |
-| Spring               | 6.2.8      |
-| Spring Boot          | 3.5.3      |
+| Spring               | 6.2.11     |
+| Spring Boot          | 3.5.6      |
 | Spring Cloud         | 2025.0.0   |
 | Spring Cloud Alibaba | 2023.0.3.3 |
-| Nacos Alibaba        | 3.0.2      |
-| Mybatis Plus         | 3.5.12     |
+| Nacos Alibaba        | 3.1.0      |
+| Mybatis Plus         | 3.5.19     |
 
 
 
@@ -63,6 +63,7 @@ blade-tool
 ├── blade-starter-datascope     -- 数据权限封装模块，支持行级权限控制
 ├── blade-starter-develop       -- 代码生成封装模块，支持多种模板生成
 ├── blade-starter-excel         -- Excel导入导出封装模块
+├── blade-starter-i18n          -- I18n国际化封装模块
 ├── blade-starter-loadbalancer  -- 负载均衡与灰度发布封装模块
 ├── blade-starter-log           -- 日志封装模块，统一日志处理和存储 
 ├── blade-starter-mybatis       -- MyBatis Plus增强封装模块
