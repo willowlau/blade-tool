@@ -36,7 +36,7 @@
 
     <properties>
         <!-- Blade-Tool Version -->
-        <revision>4.6.1-SNAPSHOT</revision>
+        <revision>4.7.0</revision>
         <module.name>org.springblade.blade.tool</module.name>
         <!-- jdk Version -->
         <java.version>17</java.version>
@@ -413,10 +413,11 @@
                 <version>${protostuff.version}</version>
             </dependency>
             <!-- antlr4 -->
+            <!-- 4.13.x版本 后续处理专享适配 -->
             <dependency>
                 <groupId>org.antlr</groupId>
                 <artifactId>antlr4-runtime</artifactId>
-                <version>4.13.2</version>
+                <version>4.9.3</version>
             </dependency>
             <!-- jakarta -->
             <dependency>
